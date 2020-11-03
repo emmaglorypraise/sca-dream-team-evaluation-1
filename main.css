@@ -1,0 +1,49 @@
+
+body{
+  background-color: palevioletred;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-weight: 800;
+}
+#app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.store{
+  /* width: 100%; */
+  width: 80%;
+  padding: 3px;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.item{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+p{
+  font-size: 18px;
+}
+button{
+  background-color: palevioletred;
+  color: white;
+  border: 1px solid palevioletred;
+  padding: 10px;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: palevioletred;
+  color: white;
+  border: 1px solid palevioletred;
+}
+.notAvailable{
+  text-decoration: line-through;
+  background-color: white;
+  color: palevioletred;
+  border: 1px solid palevioletred;
+}
