@@ -2,7 +2,7 @@ const catalog = [ {
   id: 1,
   name: "Item1",
   price: 200,
-  available: true
+  available: false
 }, 
 {
   id: 2,
@@ -76,7 +76,22 @@ function createItem(cart) {
   toggleButton.setAttribute("id", `btn-${cart.id}`)
   toggleButton.textContent = "Available";
   const cartID = cart.id;
-  toggleButton.addEventListener("click", changeState());
+
+  toggleButton.onclick = function(e) {
+    toggleButton.classList.toggle("notAvailable")
+    function strike() {
+      if (toggleButton.className === "notAvailable"){
+        name.classList.toggle("notAvailable") && price.classList.toggle("notAvailable")
+        console.log("worked");
+      } else {
+        name.classList.remove("notAvailable") || price.classList.remove("notAvailable")
+        console.log("worked again");
+      }
+    }
+    strike();
+  }
+
+  
   item.appendChild(name);
   item.appendChild(price);
   item.appendChild(toggleButton);

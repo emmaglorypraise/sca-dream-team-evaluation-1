@@ -23,7 +23,7 @@ h1{
 }
 .item{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 p{
@@ -36,11 +36,11 @@ button{
   padding: 10px;
   border-radius: 5px;
 }
-button:hover{
+/* button:hover{
   background-color: palevioletred;
   color: white;
   border: 1px solid palevioletred;
-}
+} */
 .notAvailable{
   text-decoration: line-through;
   background-color: white;
