@@ -1,60 +1,60 @@
 const catalog = [ {
   id: 1,
-  name: "Item1",
+  name: "01 - Item1",
   price: 200,
   available: false
 }, 
 {
   id: 2,
-  name: "Item2",
+  name: "02 - Item2",
   price: 300,
   available: false
 },  
 {
   id: 3,
-  name: "Item3",
+  name: "03 - Item3",
   price: 400,
   available: false
 },
 {
   id: 4,
-  name: "Item4",
+  name: "04 - Item4",
   price: 300,
   available: false
 },
 {
   id: 5,
-  name: "Item5",
+  name: "05 - Item5",
   price: 600,
   available: false
 },
 {
   id: 6,
-  name: "Item6",
+  name: "06 - Item6",
   price: 800,
   available: false
 },
 {
   id: 7,
-  name: "Item7",
+  name: "07 - Item7",
   price: 900,
   available: false
 },
 {
   id: 8,
-  name: "Item8",
+  name: "08 - Item8",
   price: 500,
   available: false
 },
 {
   id: 9,
-  name: "Item9",
+  name: "09 - Item9",
   price: 300,
   available: false
 },
 {
   id: 10,
-  name: "Item10",
+  name: "10 - Item10",
   price: 300,
   available: false
 }];
