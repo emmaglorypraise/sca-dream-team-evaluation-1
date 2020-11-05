@@ -36,14 +36,9 @@ button{
   padding: 10px;
   border-radius: 5px;
 }
-/* button:hover{
-  background-color: palevioletred;
-  color: white;
-  border: 1px solid palevioletred;
-} */
 .notAvailable{
   text-decoration: line-through;
   background-color: white;
   color: palevioletred;
-  border: 1px solid palevioletred;
+  /* border: 1px solid palevioletred; */
 }
